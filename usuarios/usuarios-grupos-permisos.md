@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Comercial Juan | Comercial junior | Interno | __Ventas:__ Propios<br> __Contabilidad:__ Ninguno | Solo puede ver documentos propios y ni tiene acceso a contabilidad |
 | Responsable Fernando | Responsable ventas | Interno | __Ventas:__ Administrador | Tiene acceso global a presupuestos y supervisión de ventas |
-| Facturación Eloy | Facturación | Interno | __Contabilidad:__ Facturación<br> __Ventas:__ Ninguno | Aplica el mínimo privilegio permitiendo facturar sin gestionar ventas |
+| Facturación Eloy | Facturación | Interno | __Contabilidad:__ Facturación<br> __Ventas:__ Acceso a presupuestos | Aplica el mínimo privilegio permitiendo facturar sin gestionar ventas (tuve que darle permiso en ventas porque no dejaba generar la factura en base al pedido ya que no tenía acceso a él y por ende no podía dejar el pedido en el estado final de facturado al no tener factura relacionada). |
 
 ## Tipos de usuario en Odoo
 * __Interno:__ Estos usuarios tienen acceso a la interfaz de gestión del Odoo y están destinados al personal de la empresa.
